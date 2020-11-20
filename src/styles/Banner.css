@@ -1,3 +1,6 @@
+
+
+
 .banner{
     height:80vh;
     position: relative;
@@ -17,7 +20,23 @@
     padding:30px;
     top:10em;
     left:1em;
+    width:450px;
 }
+.banner__search
+{
+    display: flex;
+    flex-direction: column;;
+}
+
+
+.banner__searchButton{
+    background-color:white !important;
+    font-weight: 900 !important;
+    text-transform:  inherit !important;
+    color:#ff7779 !important;
+}
+
+
 
 .banner__info p
 {
