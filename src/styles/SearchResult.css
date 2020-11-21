@@ -1,0 +1,53 @@
+.searchResult
+{
+    display:flex;
+    position: relative;
+    margin:20px;
+    padding:20px;
+    border-bottom: 1px solid lightgray;
+    cursor:pointer;
+}
+.searchResult:hover{
+    opacity: 0.8;
+}
+
+.searchResult > img
+{
+    height: 200px;
+    width:350px;
+    object-fit: cover;
+    border-radius:10px;
+    overflow: hidden;
+}
+
+.heart-icon
+{
+    position:absolute;
+    right: 40px;
+    top:20px;
+}
+
+
+.searchResult__info
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    padding-left:20px;
+}
+
+.searchResult__infoTop
+{
+    width:40vw;
+}
+.searchResult__infoTop > p{
+    font-size:0.9rem;
+    margin-top:3px;
+    color:gray;
+}
+
+.searchResult__infoTop > h3
+{
+    font-weight: 300;
+    margin-top:10px;
+}

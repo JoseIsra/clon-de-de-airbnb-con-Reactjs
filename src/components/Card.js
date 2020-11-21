@@ -2,7 +2,7 @@
 import React from 'react'
 import '../styles/Card.css';
 
-function Card({src, title, description , price}) {
+function Card({src, title, info}) {
     return (
         <div className="card">
             <img 
@@ -10,8 +10,7 @@ function Card({src, title, description , price}) {
             />
             <div className="card__info">
                 <h2>{title}</h2>
-                <h4>{description}</h4>
-                <h3>{price}</h3>
+                <h4>{info}</h4>
             </div>
 
         </div>

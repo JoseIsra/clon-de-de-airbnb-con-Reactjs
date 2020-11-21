@@ -1,0 +1,16 @@
+.bigCards{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bigCards img
+{
+    min-width:200px;
+    width:270px;
+    border-radius:20px;
+}
+
+.bigCards h3{
+    font-size:1.1rem;
+}
