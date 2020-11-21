@@ -23,15 +23,17 @@ function SearchResult({
                 </div>
                 <div className="searchResult__infoBottom">
                     <div className="searchResult__stars">
-                        <StarIcon />
+                        <StarIcon className="star-icon"/>
                         <p>
                             <stron>{star}</stron>
                         </p>
                     </div>
+                    <div className="searchResult__price">
                     <p>
                         <strong>{price}</strong>
                         por noche
                     </p>
+                    </div>
                 </div>
             </div>
         </div>

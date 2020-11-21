@@ -15,7 +15,7 @@ export const places = [
     title:"Alojamiento Nuevo en el Centro Histórico",
     description:"3 huéspedes• 1 habitación• 2 camas •1 baño",
     star:"4.0",
-    price:"S/.89"
+    price:"S/.89 "
     },
     {
         id:3,
@@ -24,7 +24,7 @@ export const places = [
     title:`Hospedaje cómodo y relajante -"Suite Luisa"`,
     description:"2 huéspedes• 1 habitación• 1 cama •1 baño",
     star:"4.82",
-    price:"S/.40"
+    price:"S/.40 "
     },
     {
         id:4,
@@ -60,7 +60,7 @@ export const places = [
     title:"Loft en zona central de Barranco",
     description:"2 huéspedes• 1 habitación• 1 cama•1 baño",
     star:"4.84",
-    price:"S/.76"
+    price:"S/.76 "
     },
     {
         id:8,

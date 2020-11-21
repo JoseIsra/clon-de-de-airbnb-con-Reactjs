@@ -1,3 +1,4 @@
+
 .searchResult
 {
     display:flex;
@@ -42,7 +43,7 @@
 }
 .searchResult__infoTop > p{
     font-size:0.9rem;
-    margin-top:3px;
+    margin-top:10px;
     color:gray;
 }
 
@@ -50,4 +51,31 @@
 {
     font-weight: 300;
     margin-top:10px;
+}
+
+.searchResult__infoBottom
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchResult__stars
+{
+    display:Flex;
+    align-items:center;
+}
+.star-icon
+{
+    color:red;
+}
+
+.searchResult__price
+{
+    position:absolute;
+    bottom:20px;
+    right:30px;
+}
+.searchResult__price > p
+{
+    text-align: right;
 }
